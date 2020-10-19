@@ -8,7 +8,7 @@
  *
  * @author Максим Усков
  */
-public class Stack<T> {              //Стек который в качестве элемента хранит элементы типа String
+public class Stack<T> {              //Стек который в качестве элемента хранит элементы любого типа
     private class Node{                 //Класс который хранит элементы Стека
         private T element;
         private Node next;
